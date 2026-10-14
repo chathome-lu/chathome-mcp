@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "chathome": {
+      "type": "http",
+      "url": "https://chathome.lu/api/mcp"
+    }
+  }
+}
