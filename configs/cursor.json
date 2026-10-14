@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "chathome": {
+      "url": "https://chathome.lu/api/mcp"
+    }
+  }
+}
