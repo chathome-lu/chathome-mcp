@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "lu.chathome/chathome",
+  "title": "ChatHome — Grande Région Real Estate",
+  "description": "Grande Région property search, Luxembourg market data, and authenticated private actions.",
+  "version": "1.9.0",
+  "websiteUrl": "https://chathome.lu/en/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chathome.lu/api/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "documentationRepository": "https://github.com/chathome-lu/chathome-mcp"
+    }
+  }
+}
