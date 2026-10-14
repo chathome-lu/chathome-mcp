@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "chathome": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://chathome.lu/api/mcp"
+      ]
+    }
+  }
+}
