@@ -35,6 +35,15 @@ Raycast Pro: run **Install MCP Server**, choose HTTP, use the endpoint, and choo
 
 Claude Code: `claude mcp add --transport http chathome https://chathome.lu/api/mcp`.
 
+Claude Code plugin (MCP server plus the `chathome-luxembourg-property` Agent Skill):
+
+```
+/plugin marketplace add chathome-lu/chathome-mcp
+/plugin install chathome@chathome
+```
+
+Restart Claude Code; the OAuth login to chathome.lu starts on first tool use. On claude.ai or Claude Desktop, add the connector above and upload the skill zip from [chathome.lu/skills/chathome-luxembourg-property.zip](https://chathome.lu/skills/chathome-luxembourg-property.zip) under Settings → Capabilities → Skills.
+
 ## Example prompts
 
 - Find a quiet two-bedroom rental near Kirchberg below €2,000. Show the photos and source links, and state which wishes were not checked.
@@ -51,6 +60,8 @@ Price estimates and commute tools require authentication. Tool availability and 
 - `gpt-actions.json`: six named read operations for the GPT editor, without general MCP dispatch. Set authentication to None; use `gpt-instructions.txt` for the assistant instructions. The hosted schema is available at [`/.well-known/gpt-actions.json`](https://chathome.lu/.well-known/gpt-actions.json).
 - `server.json`: draft update for the existing official registry record, including the proposed documentation repository in publisher metadata. It does not claim this repository contains the hosted implementation. Publish the repository before submitting this update.
 - `snapshot.json`: observation time and endpoint.
+- `.claude-plugin/`, `.mcp.json`: Claude Code plugin and marketplace definition. Formerly published as `chathome-lu/chathome-claude-plugin`.
+- `skills/chathome-luxembourg-property/`: Agent Skill with tool selection, the home-finding workflow, Luxembourg market context and no-auth fallback endpoints.
 
 ## Setup references
 

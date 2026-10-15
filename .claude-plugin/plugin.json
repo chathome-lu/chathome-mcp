@@ -1,0 +1,17 @@
+{
+  "name": "chathome",
+  "version": "1.0.0",
+  "description": "Luxembourg real estate for AI agents — search rentals and homes for sale, get AI price estimates, mortgage affordability, commute times, and commune market data. Bundles the chathome.lu remote MCP server (OAuth 2.1, nothing to run locally) and an Agent Skill with the workflows.",
+  "author": {
+    "name": "chathome.lu",
+    "url": "https://chathome.lu"
+  },
+  "homepage": "https://chathome.lu/en/mcp",
+  "keywords": [
+    "real-estate",
+    "luxembourg",
+    "housing",
+    "property-search",
+    "mcp"
+  ]
+}

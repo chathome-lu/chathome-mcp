@@ -1,0 +1,14 @@
+{
+  "name": "chathome",
+  "owner": {
+    "name": "chathome.lu",
+    "url": "https://chathome.lu"
+  },
+  "plugins": [
+    {
+      "name": "chathome",
+      "source": "./",
+      "description": "Luxembourg real estate for AI agents — live rental and for-sale search, price estimates, mortgage affordability, commute times, and commune market data via the chathome.lu MCP server, plus an Agent Skill that teaches Claude the workflows."
+    }
+  ]
+}
